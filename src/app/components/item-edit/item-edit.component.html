@@ -1,0 +1,9 @@
+<form [formGroup] = "editItemForm" (ngSubmit)="onSubmit()">
+    <label for="name"> Item Name </label>
+    <input id = "name" type="text" formControlName = "name">
+    <label for="description"> Item Description </label>
+    <input id = "description" type="text" formControlName = "description">
+    <label for="price"> Price </label>
+    <input id = "price" type="number" formControlName = "price">
+    <button type="submit">submit</button>
+</form>
