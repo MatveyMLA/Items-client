@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { Location } from '@angular/common';
-import { Item } from 'src/app/item';
+import { Item } from 'src/domains/item';
 import { ItemsService } from 'src/app/services/item-service/items.service';
 import { NGXLogger } from 'ngx-logger';
 

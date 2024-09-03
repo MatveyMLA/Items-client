@@ -5,6 +5,9 @@
     <mat-card-subtitle>
         <p>{{item.description}}</p>
     </mat-card-subtitle>
+    <!-- <mat-card-subtitle ngIf="isLike">
+        <p>LIKED</p>
+    </mat-card-subtitle> -->
     <mat-card-actions>        
         <button mat-button (click)="deleteItem()">DELETE</button>
         <button mat-button (click)="redirectToEdit()">EDIT</button>

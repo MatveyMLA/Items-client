@@ -11,13 +11,17 @@ import {MatButtonModule} from '@angular/material/button';
 import { ItemDetailsComponent } from './components/item-details/item-details.component';
 import { ItemEditComponent } from './components/item-edit/item-edit.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { OrderComponent } from './components/order/order/order.component';
+import { OrderDetailsComponent } from './components/order-details/order-details/order-details.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ItemComponent,
     ItemDetailsComponent,
-    ItemEditComponent
+    ItemEditComponent,
+    OrderComponent,
+    OrderDetailsComponent
   ],
   imports: [
     BrowserModule,

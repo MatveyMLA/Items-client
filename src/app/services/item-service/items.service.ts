@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Observable, map } from 'rxjs'
 import { NGXLogger } from 'ngx-logger';
-import { Item } from 'src/app/item';
+import { Item } from 'src/domains/item';
 
 @Injectable({
   providedIn: 'root'
